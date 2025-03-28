@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Smooth scrolling for everything */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Optional: snap scrolling and overscroll control for main feed */
+main {
+    scroll-snap-type: y mandatory;
+    overscroll-behavior-y: contain;
+}
